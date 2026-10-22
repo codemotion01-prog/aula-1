@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main() {
+    
+    double RAIO,Aux,Aux2,pi =3.14159;
+    scanf("%lf",&RAIO);
+    Aux = RAIO * RAIO;
+    Aux2 = Aux * pi;
+    printf("A=%.4lf\n",Aux2);
+    
+ 
+    return 0;
+}
